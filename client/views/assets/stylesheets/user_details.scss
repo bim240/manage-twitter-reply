@@ -1,0 +1,32 @@
+.user_details_container {
+  display: flex;
+  justify-content: space-between;
+  color: inherit;
+  font-size: 1rem;
+  .first_child {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: inherit;
+    box-shadow: 0 2px 3px rgba(170, 166, 166, 0.178);
+    font-size: 1.1;
+    // font-weight: 900;
+  }
+  .second_child {
+    display: flex;
+    font-size: 1.1;
+    .session {
+      border: none;
+      background: transparent;
+      outline: none;
+      color: inherit;
+      margin-right: 1rem;
+    }
+    .username {
+      border: none;
+      outline: none;
+      background: transparent;
+      color: inherit;
+    }
+  }
+}

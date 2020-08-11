@@ -1,0 +1,13 @@
+.dashboard_container {
+  padding-top: 1rem;
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+
+  box-sizing: border-box;
+  .chat_section {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 100%;
+  }
+}

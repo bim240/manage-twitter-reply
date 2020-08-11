@@ -1,0 +1,17 @@
+@import "./reset.scss";
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(32, 32, 32, 0.801);
+}
+@import "./app.scss";
+@import "./header.scss";
+@import "./login.scss";
+@import "./dashboard.scss";
+@import "./heading_seach.scss";
+@import "./user_details.scss";
+@import "./all_chat.scss";
+@import "./single_chat_details.scss";
+@import "./video_call.scss";
+@import "./common.scss";
+@import "./bookmarks.scss";
+@import "./avatar.scss";
